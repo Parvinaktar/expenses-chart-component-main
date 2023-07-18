@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --Darkbrown: hsl(25, 47%, 15%);
+  --Mediumbrown: hsl(28, 10%, 53%);
+  --Cream: hsl(27, 66%, 92%);
+  --Verypaleorange: hsl(33, 100%, 98%);
+  --Softred: hsl(10, 79%, 65%);
+  --Cyan: hsl(186, 34%, 60%);
+}
+.parent {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Cream);
+  flex-direction: column;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  width: 500px;
+  background-color: var(--Softred);
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+}
+.f-part {
+  font-family: "DM Sans", sans-serif;
+  padding-left: 10px;
+}
+.f-part p {
+  margin-top: 8px;
+  margin-bottom: 6px;
+}
+.f-part h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.s-part {
+  padding-right: 10px;
+  padding-top: 15px;
+}
+.box {
+  padding: 30px;
+  margin-top: 30px;
+
+  width: 500px;
+  background-color: var(--Verypaleorange);
+  border-radius: 10px;
+}
+.box h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  color: var(--Darkbrown);
+  font-size: 30px;
+}
+.days {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+.days p {
+  text-align: center;
+  font-size: 13px;
+  color: var(--Mediumbrown);
+}
+.mon div {
+  margin-top: 80px;
+  height: 50px;
+  width: 43px;
+  border-radius: 5px;
+  background-color: var(--Softred);
+}
+.tue div {
+  margin-top: 30px;
+  height: 100px;
+  width: 43px;
+  border-radius: 5px;
+  background-color: var(--Softred);
+}
+.wed div {
+  height: 130px;
+  width: 43px;
+  border-radius: 5px;
+  background-color: var(--Cyan);
+}
+.thu div {
+  margin-top: 40px;
+  height: 90px;
+  width: 43px;
+  border-radius: 5px;
+  background-color: var(--Softred);
+}
+.fri div {
+  margin-top: 60px;
+  height: 70px;
+  width: 43px;
+  border-radius: 5px;
+  background-color: var(--Softred);
+}
+.sat div {
+  margin-top: 20px;
+  height: 110px;
+  width: 43px;
+  border-radius: 5px;
+  background-color: var(--Softred);
+}
+.sun div {
+  margin-top: 45px;
+  height: 85px;
+  width: 43px;
+  border-radius: 5px;
+  background-color: var(--Softred);
+}
+.month {
+  display: flex;
+  justify-content: space-between;
+}
+.month p {
+  color: var(--Mediumbrown);
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+.month h2 {
+  color: var(--Darkbrown);
+  font-size: 45px;
+}
+.month h4 {
+  margin-bottom: 5px;
+  padding-top: 38px;
+  color: var(--Darkbrown);
+  font-size: 16px;
+  font-weight: 700;
+}
